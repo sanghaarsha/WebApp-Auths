@@ -1,0 +1,23 @@
+<%- include('partials/header') %>
+
+<div class="jumbotron centered">
+    <div class="container">
+        <i class="fas fa-exclamation-triangle fa-6x" style="color: red"></i>
+        <h3 class="display-5">Username Already Taken</h3>
+        <p class="lead">
+            Please Use Unique E-mail
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-danger">
+                    Enter your e-mail for registration.
+                </li>
+            </ul>
+        </p>
+        <hr />
+        <a class="btn btn-light btn-lg" href="/register" role="button"
+            >Register</a
+        >
+        <a class="btn btn-dark btn-lg" href="/login" role="button">Login</a>
+    </div>
+</div>
+
+<%- include('partials/footer') %>
